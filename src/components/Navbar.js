@@ -11,10 +11,8 @@ import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
 import HomeIcon from "@mui/icons-material/Home";
 import InfoIcon from "@mui/icons-material/Info";
-import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import { Link } from "react-scroll";
-import { NavLink } from "react-router-dom";
 const Navbar = () => {
     const [openMenu, setOpenMenu] = useState(false);
   const menuOptions = [

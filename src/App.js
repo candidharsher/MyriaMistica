@@ -5,7 +5,6 @@ import Work from "./components/Work";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import FixedButtons from "./components/FixedButtons";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom"; // Importa BrowserRouter, Route y Switch
 import { Helmet } from "react-helmet";
 
 function App() {
